@@ -1,0 +1,12 @@
+## WebApplication Type Setting
+## 자바 어플리케이션으로 실행할지 웹 애플리케이션으로 실행할지 설정할 수 있는 설정 값
+## 배너 끔 설정
+spring:
+  main:
+    web-application-type: servlet
+    banner-mode: off
+
+
+## Server Setting
+server:
+  port: 8080
